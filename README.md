@@ -30,7 +30,7 @@ cut -d: -f3,4 /etc/data1
 
 找出 data1 第 3 和 4 欄位
 
-sort
+sort 排序
 ---
 
 sort data1
@@ -52,3 +52,21 @@ sort -n +2 data1
 sort -nr +2 -t: data1
 
 -t: 用 : 分隔符號區分
+
+wc 計算字串長度
+---
+
+wc
+
+wc -l dataf1
+
+顯示檔案內共有幾列
+
+wc -c file
+
+顯示共有多少字元
+
+wc -w file
+
+顯示共有多少單字
+
